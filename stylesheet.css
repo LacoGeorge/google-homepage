@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+}
+
+#logo {
+	margin-top: 200px;
+}
+
+img {
+	height: 100px;
+	width: auto;
+}
+#search_bar {
+	margin-bottom: 30px;
+}
+
+#buttons {
+	margin-bottom: 30px;
+}
+
+#lang{
+	font-family: sans-serif;
+	font-size: 12px;
+}
+#country {
+	color: blue;
+	font-family: sans-serif;
+}
