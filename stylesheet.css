@@ -1,15 +1,80 @@
+/*Top menu*/
+
+.top_menu{
+	padding-top: 10px;
+	top: 0px;
+
+	
+}
+.top_menu_list{
+	vertical-align: middle;
+}
+
+.top_menu_li{
+	display:inline-block;
+	padding-right: 16px;
+	vertical-align: middle;
+
+	font-family: sans-serif;
+	font-size:13px;
+}
+
+.sing_in{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color: #4285f4;
+	border-radius: 2px;
+	padding: 8px 14px;
+}
+
+
+.top_menu_a
+{
+	color: gray;
+}
+.top_menu_a:link
+{
+	text-decoration: none;
+}
+.top_menu_a:visited
+{
+	text-decoration: none;
+}
+
+.top_menu_a:hover
+{
+	text-decoration: underline;
+}
+
+.top_menu_a:active
+{
+	text-decoration: underline;
+}
+
+
+
+.top_menu_list{	
+	text-align:right;
+	margin:auto;
+	}
+
+/*Body*/
 body {
 	text-align: center;
 }
 
 #logo {
-	margin-top: 200px;
+	display:block;
+	margin-top: 170px;
 }
 
-img {
-	height: 100px;
-	width: auto;
+.google_logo {
+	width: 272px;
+	height:auto;
+;
 }
+
 #search_bar {
 	margin-bottom: 30px;
 }
@@ -17,12 +82,17 @@ img {
 #buttons {
 	margin-bottom: 30px;
 }
-
+/* Lang element*/
 #lang{
 	font-family: sans-serif;
 	font-size: 12px;
+
+	display: block;
 }
-#country {
+.country {
+	margin-top: -35px;
+	margin-left: 260px;
+	
 	color: blue;
 	font-family: sans-serif;
 }
