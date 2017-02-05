@@ -101,9 +101,9 @@
 
 .search_text_box
 {
-	display: inline-block;
-	width: 100%;
-	margin: 4px 60px 4px 16px;
+	display: inline;
+	width: 87%;
+	margin: 4px 0px 4px 16px;
 }
 
 .search_text_box input{
@@ -118,6 +118,21 @@
 .search_text_box input:focus {
 	outline: none;
 	width: 87%;
+}
+
+.voice_icon {
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+.voice_icon img{
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	width: 25px;
+	height:auto;
+	display: inline;
 }
 
 
